@@ -1,14 +1,15 @@
 {
-  "name": "fake-progress",
-  "version": "1.0.4",
+  "name": "@white-matrix/fake-progress",
+  "version": "0.0.2",
   "description": "Fake a progress bar using an exponential progress function",
   "main": "index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "xo && node test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piercus/fake-progress.git"
+    "url": "git@github.com:WhiteMatrixTech/fake-progress.git"
   },
   "keywords": [
     "progress",
@@ -23,7 +24,7 @@
   "author": "Pierre Colle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/piercus/fake-progress/issues"
+    "url": "https://github.com/WhiteMatrixTech/fake-progress/issues"
   },
   "xo": {
     "rules": {
@@ -33,10 +34,13 @@
       ]
     }
   },
-  "homepage": "https://github.com/piercus/fake-progress#readme",
+  "homepage": "https://github.com/WhiteMatrixTech/fake-progress#readme",
   "devDependencies": {
     "assert": "^1.4.1",
     "vows": "^0.8.1",
     "xo": "^0.18.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

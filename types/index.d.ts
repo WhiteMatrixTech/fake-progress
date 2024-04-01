@@ -6,7 +6,7 @@ interface Options {
     parentEnd?: number;
 }
 
-declare module 'fake-progress' {
+declare module '@white-matrix/fake-progress' {
     export = FakeProgress;
 
     class FakeProgress {
